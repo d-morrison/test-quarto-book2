@@ -20,7 +20,18 @@ format:
     theme: cosmo
   pdf:
     documentclass: scrreprt
-  docx: default
+  docx:
+    fig-align: "center"
+    cap-location: top
+    fig-cap-location: top
+    tbl-cap-location: top
+    fig-height: 8
+    fig-width: 7
+    toc: true
+    echo: false
+    mainfont: serif
+    fig-dpi: 600
+    markdown: true
 
 editor: visual
 
